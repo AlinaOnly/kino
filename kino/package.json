@@ -1,0 +1,28 @@
+{
+  "name": "kino",
+  "description": "Project about arthouse films",
+  "author": "Eugene Mironyuk",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.6.0",
+    "@nuxtjs/stylelint-module": "^5.0.1",
+    "@types/node": "^18",
+    "nuxt": "^3.4.3",
+    "stylelint": "^15.6.1",
+    "volar-service-vetur": "latest"
+  },
+  "dependencies": {
+    "eslint": "^8.40.0",
+    "nodemon": "^2.0.22",
+    "normalize.css": "^8.0.1",
+    "nuxt-webfontloader": "^1.1.0",
+    "sass": "^1.62.1"
+  }
+}
