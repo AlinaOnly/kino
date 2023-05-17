@@ -37,7 +37,7 @@
       <h1>{{ text.author }}</h1>
       <p>{{ text.description }}</p>
     </div>
-    <img src="text.img" alt="image">
+    <img :src='text.image' alt="image">
   </SwiperSlide>
 
   </Swiper>
@@ -57,7 +57,7 @@
         {
           author: 'Михаил Круг',
           description: 'Что ж ты фраер сдал назад',
-          poster: 'https://n1s1.hsmedia.ru/c6/cb/07/c6cb075801788a8aa6743e7c1d533f59/600x600_1_3385da3571b5694b6829c4da5493ed8e@1200x1200_0xac120004_2890328431678722594.jpeg',
+          image: 'https://n1s1.hsmedia.ru/c6/cb/07/c6cb075801788a8aa6743e7c1d533f59/600x600_1_3385da3571b5694b6829c4da5493ed8e@1200x1200_0xac120004_2890328431678722594.jpeg',
         },
         {
           topic: 'Почему Зеленый фонарь',

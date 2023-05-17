@@ -1,6 +1,6 @@
 
 <template>
     <div>
-        <Swiper/>
+        <TheSwiper />
     </div>
 </template>
