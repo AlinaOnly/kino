@@ -19,7 +19,7 @@ export default defineNuxtConfig({
                 }
             ],
             link: [
-                { rel: 'shortcut icon', href: 'favicon.ico'  }
+                { rel: 'favicon', href: 'favicon.ico'  }
             ],
         },
     },
@@ -32,7 +32,11 @@ export default defineNuxtConfig({
     ],
     modules: [
         '@nuxt/content',
+        'nuxt-swiper',
         //'nuxt-webfontloader',
     ],
+    swiper: {
+
+    },
     //webfontloader: {},
 });

@@ -20,9 +20,12 @@
   },
   "dependencies": {
     "eslint": "^8.40.0",
+    "nanoid": "^4.0.2",
     "nodemon": "^2.0.22",
     "normalize.css": "^8.0.1",
+    "nuxt-swiper": "^1.1.0",
     "nuxt-webfontloader": "^1.1.0",
-    "sass": "^1.62.1"
+    "sass": "^1.62.1",
+    "surrealdb.js": "^0.7.2"
   }
 }

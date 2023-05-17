@@ -1,10 +1,12 @@
 <template>
   <div>
       <NuxtLayout>
-        <Header />
+        <TheHeader />
         <NuxtPage />
-        <Ticket/>
-        <Footer />
+        <TheTicket/>
+        <TheFooter />
       </NuxtLayout>
   </div>
 </template>
+
+

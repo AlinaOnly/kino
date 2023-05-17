@@ -1,6 +1,6 @@
 
 <template>
-    <div class="Main">
-        <Main />
+    <div>
+        <Swiper/>
     </div>
 </template>

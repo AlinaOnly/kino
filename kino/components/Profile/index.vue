@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <div>Profile </div>
+    <div class="profile">Profile </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss" scoped></style>
