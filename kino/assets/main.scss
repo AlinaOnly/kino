@@ -1,4 +1,6 @@
 html {
+    height: 100%;
+    position: relative;
     font-size: 16px;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -17,10 +19,10 @@ html {
     font-smooth: auto;
     // line-height: 1.4rem;
     font-weight: 400;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: -apple-system, Verdana, sans-serif;
 
     &.wf-active {
-        font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-family: 'Verdana', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     }
 }
 

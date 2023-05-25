@@ -1,8 +1,9 @@
 <template>
   <div>
       <NuxtLayout>
-        <TheHeader />
+        <TheMain/>
         <NuxtPage />
+        
         <TheTicket/>
         <TheFooter />
       </NuxtLayout>

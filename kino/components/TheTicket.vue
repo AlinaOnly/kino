@@ -2,9 +2,13 @@
 
 <template>
     <div class="buy-tickets">
-        <button class="buy-tickets__btn" onclick="">Купить билеты</button>
+        <button class="btn" onclick="">Купить билеты</button>
     </div>
 </template>
 
 <style lang="scss" scoped>
+  .buy-tickets {
+    display: flex;
+    justify-content: center;
+  }
 </style>
